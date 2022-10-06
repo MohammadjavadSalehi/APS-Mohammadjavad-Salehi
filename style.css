@@ -1,0 +1,107 @@
+@font-face {
+	font-family: IRANSans;
+	src: url("IRANSans.ttf");
+}
+#navbarNavAltMarkup{
+	flex-direction: row-reverse;
+}
+nav{
+	position: sticky !important;
+}
+.img1{
+	/* min-width: 992px !important; */
+	width: 100%;
+	height: 80%;
+	
+}
+.container-fluid{
+	padding: 0px;
+}
+.fa-star{
+	color: rgb(114, 114, 114);
+}
+.yello{
+	color: rgb(255, 215, 0);
+}
+.card-body img{
+	/* height: 50% !important; */
+	padding: 35px 10px;
+}
+.badge{
+	float: right;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.card-text{
+	text-align: center !important;
+	font-size: small;
+}
+.btn1{
+	
+	color: rgb(255, 255, 255);
+	background-color: rgba(71, 4, 85, 0.973);
+	width: 30px;
+	height: 30px;
+	border: 1px solid rgba(71, 4, 85, 0.973);
+	border-radius: 360px;
+	overflow: hidden;
+	text-align: left;
+	transition: width ease-in-out 80ms;	
+	font-size: 0.875rem;
+	margin: 5px;
+}
+.btn1:hover{
+	width: 80px;
+}
+.navbar-brand{
+	margin-left: 10px;
+}
+i{
+	display: inline ;
+	padding-top: 5px;
+	left: 0px;
+}
+.vis{
+	display: inline;
+	text-align: right;
+	font-size: 0.875rem;
+}
+body{
+	font-family: IRANSans;
+}
+.card{
+	border: 1px solid none;
+	padding: 20px;
+	/* box-shadow: rgb(167, 167, 167) !important ; */
+	box-shadow: 2px 2px 5px 5px rgb(167, 167, 167)  !important;
+}
+.card-body{
+	padding: 0;
+}
+.text-bg-danger{
+	background-color: rgb(214, 26, 26);
+	color: rgb(255, 255, 255);
+}
+.space{
+	float: right;
+	border-bottom: 1px solid rgb(204, 5, 5);;
+}
+footer {
+	direction: rtl;
+	background-color: #929fba;
+}
+.ri{
+	direction: rtl !important;
+	float: right;
+	text-align: right;
+}
+a{
+	text-decoration: none;
+}
+footer a i.fa{
+	font-size: 200%;
+}
+header i{
+	font-size: 125% !important;
+}
